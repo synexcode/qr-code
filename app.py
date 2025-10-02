@@ -36,7 +36,7 @@ st.markdown("""
         background: linear-gradient(90deg, #0077b6, #00b4d8);
         color: white;
         border-radius: 10px;
-            width: 100%;
+        width: 100%;
         padding: 10px;
         border: none;
     }
