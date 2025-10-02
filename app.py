@@ -28,13 +28,18 @@ st.markdown("""
             border-radius: 10px !important;
             border: 1px solid #0077b6 !important;
         }
-        .stButton>button {
-            background: linear-gradient(90deg, #0077b6, #00b4d8);
-            color: white;
-            border-radius: 10px;
-            padding: 10px;
-            border: none;
-        }
+        .stButton {
+        display: flex;
+        justify-content: center;
+    }
+    .stButton>button {
+        background: linear-gradient(90deg, #0077b6, #00b4d8);
+        color: white;
+        border-radius: 10px;
+            width: 100%;
+        padding: 10px;
+        border: none;
+    }
     </style>
 """, unsafe_allow_html=True)
 
